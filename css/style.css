@@ -1,0 +1,424 @@
+/*------------------- Common css start----------------------
+------------------------------------------------------*/
+body{
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Michroma-Regular';
+}
+p{
+    font-family: 'Roboto-Light';
+    color: #ffffff7d;
+}
+.mb_50{
+    margin-bottom: 50px;
+}
+.mt_50{
+    margin-top: 50px;
+}
+.my_50{
+    margin: 50px 0;
+}
+/*------------------- Common css End----------------------*/
+
+
+
+
+
+/*-------------------Fonts start----------------------
+------------------------------------------------------*/
+@font-face {
+    font-family: 'Michroma-Regular';
+    src: url(../font/Michroma/Michroma-Regular.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(../font/Open_Sans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../font/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../font/Roboto/Roboto-Light.ttf);
+}
+/*-------------------Fonts End----------------------*/
+
+
+
+
+
+/*-------------------Fonts start----------------------
+------------------------------------------------------*/
+/*col pure lite start*/
+.pure_lite_wrapper{
+    color: white;
+    transition: .5s; 
+    transition: .5s;
+}
+.pure_lite_wrapper:hover{
+    color: transparent;
+}
+.pure_lite{
+    font-size: 86px;
+    text-transform: lowercase;
+    position: relative;
+    font-style: italic;
+}
+
+
+
+.pure_lite::before,
+.pure_lite::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.pure_lite::before{
+    clip-path: polygon(0 100%, 100% 100%, 100% 59%, 0 59%);
+}
+
+.pure_lite_wrapper:hover .pure_lite::before{
+    color: #ffffff;
+    transform: translate(-3px, 1px);
+}
+.pure_lite::after{
+    clip-path: polygon(0 59%, 100% 59%, 100% 0, 0 0);
+}
+.pure_lite_wrapper:hover .pure_lite::after{
+    color: #ffffff;
+    transform: translate(3px, -1px);
+}
+
+.pure{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.9px;
+}
+.lite{
+    margin-top: -25px;
+    -webkit-text-stroke-width: 1.9px;
+    
+}
+.pure_lite_text{
+    font-size: 18px;
+    line-height: 24px;
+}
+.pure_lite_text span{
+    font-family: 'Roboto-Black';
+}
+/*col pure lite End*/
+/*col make it start*/
+.make_it_wrapper{
+    transform: rotate(90deg);
+    letter-spacing: 3px;
+    font-size: 20px;
+    height: auto;
+    min-width: 120%;
+    margin-top: 93px;
+}
+/*col make it End*/
+.seven_start{
+    z-index: 1;
+    font-size: 40px;
+    position: absolute;
+    max-width: 18%;
+}
+.style_1{
+    display: inline-block;
+    transition: 1.0s ease-in-out;
+}
+.style_1:hover{
+    margin-left: 125px;
+}
+.style_2{
+    margin-top: 95px;
+    margin-left: 110px;
+    z-index: -2;
+    position: absolute;
+}
+
+/*-------------------Fonts End----------------------*/
+
+
+
+
+
+/*-------------------Fonts start----------------------
+------------------------------------------------------*/
+.bg_nd{
+    background-image: url(../img/need_a_drink_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*-------------------Fonts End----------------------*/
+
+
+
+
+
+
+
+
+/*-------------------Classic pure lite start----------------------
+------------------------------------------------------*/
+.clasic_img_1{
+    left: -250px;
+}
+.classic_text_aria{}
+.classic_text_aria h1{
+    font-size: 80px;
+}
+.classic_text_aria h2{
+    min-width: 34%;
+    font-size: 45px;
+    margin-top: 28px;
+    height: auto;
+    border: 3px solid;
+}
+.classic_text{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    margin: 20px 0;
+}
+.cc_btn{
+    right: 0;
+    top: 200px;
+}
+.classic_position{
+    left: -30%;
+    top: 145px;
+}
+/*-------------------Classic pure lite End----------------------*/
+
+
+
+
+
+/*------------------- Freequently bought start----------------------
+------------------------------------------------------*/
+.fre_title{
+    font-size: 67px;
+    font-style: italic;
+}
+.fre_text{
+    bottom: -196px;
+}
+.fre_text p{
+    font-size: 24px;
+}
+.style_2-1{
+    z-index: -3;
+    right: -35px;
+    top: 325px;
+}
+.style_4{
+    z-index: -3;
+    top: -67px;
+    left: -97px;
+}
+/*------------------- Freequently bought End----------------------*/
+
+
+
+
+
+/*------------------- Upto 80% start----------------------
+------------------------------------------------------*/
+.bg_upto{
+    background-image: url(../img/bg_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mt_tt{
+    margin-top: 192px;
+}
+.min_height{
+    min-height: 510px;
+}
+.min_height h2{
+    font-size: 42px;
+}
+.upto_80{
+    bottom: 8%;
+    right: 0;
+}
+.upto_80 h1{
+    font-size: 80px;
+    text-align: end;
+}
+/*------------------- Upto 80% End----------------------*/
+
+
+
+
+
+/*------------------- Crazy start----------------------
+------------------------------------------------------*/
+.crazy_item{
+
+}
+.crazy_item h2{
+    border: 2px solid;
+    padding: 15px 50px;
+}
+.crazy_style-1 {
+    margin-left: 63.7%;
+}
+.crazy_text{}
+.crazy_text h1{
+    font-size: 33px;
+}
+.crazy_text p{}
+.crazy_style-2{
+    margin-left: -145px;
+    margin-top: -130px;
+    position: relative;
+    z-index: -44;
+}
+/*------------------- Crazy End----------------------*/
+
+
+
+
+
+/*------------------- New beer start----------------------
+------------------------------------------------------*/
+.bg_new_beer{
+    background-image: url(../img/new_beer_bg_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new_beer_min_height{
+    min-height: 700px;
+}
+.new_beer_img{
+    position: relative;
+    transition: 3.5s;
+}
+.new_beer_img:hover{
+    transform: rotate(360deg);
+    scroll-behavior:inherit;
+}
+/*------------------- New beer End----------------------*/
+
+
+
+
+
+/*------------------- Customer Reviews start----------------------
+------------------------------------------------------*/
+.review_title h1{
+    font-size: 59px;
+    font-style: italic;
+    text-align: center;
+    text-transform: lowercase;
+}
+.reviews_1{
+    border-bottom: 2px solid #ffffff7d;
+}
+.reviews_1 h2{
+    font-size: 33.33px;
+}
+.start_date{}
+.reviews_1 p{
+    font-size: 18.7px;
+}
+.style_7{
+    margin-left: -122px;
+}
+.style_8{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 115px;
+    margin-left: 108px;
+}
+.style_9{
+    margin-left: 50px;
+}
+/*------------------- Customer Reviews End----------------------*/
+
+
+
+
+
+/*------------------- Newsletter start----------------------
+------------------------------------------------------*/
+.form_newsletter{
+    background-color: #000000;
+    border-radius: 0;
+    color: #ffffff;
+    border: 2px solid #ffffff7d;
+    padding: 12px 30px;
+    font-size: 21px;
+}
+.form_newsletter:focus {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: none;
+}
+.style_10{
+    margin-bottom: -491px;
+    margin-top: 171px;
+    margin-left: -119px;
+}
+.style_11{
+    margin-left: 75%;
+    margin-top: -19%;
+    position: relative;
+    z-index: -3;
+}
+/*------------------- Newsletter End----------------------*/
+
+
+
+
+
+/*------------------- Footer start----------------------
+------------------------------------------------------*/
+.bg_footer{
+    background-color: #2B2B2B;
+    padding-top: 140px;
+}
+.footer_link p a ,.email_link, .mh{
+    color: #ffffff7d;
+    transition: .3s;
+}
+.footer_link p a:hover,
+.mh:hover,
+.email_link:hover{
+    color: #ffffff;
+}
+.style_12{
+    margin-left: -118px;
+    margin-top: -231px;
+}
+.style_13{
+    margin-left: -90px;
+    margin-top: 150px;
+}
+/*------------------- Footer End----------------------*/
+
+
+
+
+
+/*------------------- Footer bottom start----------------------
+------------------------------------------------------*/
+.social_icon ul li a{
+    color: #797d79;
+    transition: .3s;
+}
+.social_icon ul li a:hover{
+    color: #ffffff;
+}
+/*------------------- Footer bottom End----------------------*/

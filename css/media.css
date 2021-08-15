@@ -1,0 +1,548 @@
+/*Extra small devices (portrait phones, less than 576px)
+=======================================================*/
+@media (max-width: 575.98px) { 
+
+    .mb_50{
+        margin-bottom: 30px;
+    }
+    .mt_50{
+        margin-top: 30px;
+    }
+    .my_50{
+        margin: 30px 0;
+    }
+    
+    /* Slider start */
+    .pure_lite {
+        font-size: 50px;
+        line-height: 85px;
+    }
+    .make_it_wrapper {
+        transform: rotate(0deg);
+        min-width: 0%;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .seven_start {
+        font-size: 35px;
+        max-width: 28%;
+        right: 118px;
+        top: 146px;
+        text-align: end;
+    }
+    
+    /* Slider End */
+    /* Classic pure lite start */
+    
+    .clasic_img_2{
+        width: 100%;
+    }
+    .classic_text_aria h1 {
+        font-size: 40px;
+    }
+    .classic_text_aria h2 {
+        font-size: 24px;
+        margin-top: 12px;
+        min-width: 40%;
+    }
+    .cc_btn{
+        right: 62px;
+        top: 150px;
+        position: unset;
+        font-size: 18px !important;
+    }
+    .classic_position{
+        left: 0%;
+        top: 0%;
+    }
+    /* Classic pure lite End */
+    
+    /* Freequently bought Start*/
+    .fre_title {
+        font-size: 24px;
+    }
+    .mt_t{
+        margin-top: 250px;
+    }
+    .fre_bought{
+        margin-bottom: 135px;
+    }
+    .fre_text h1{
+        font-size: 30px;
+    }
+    .fre_text {
+        bottom: -150px;
+    }
+    .fre_text p {
+        font-size: 20px;
+    }
+    /* Freequently bought End*/
+    /* Up to 80% start*/
+    .mt_tt{
+        margin-top: 176px;
+    }
+    .min_height{
+        min-height: 280px;
+    }
+    .min_height h2 {
+        font-size: 22px;
+    }
+    .upto_80 h1 {
+        font-size: 52px;
+    }
+    /* Up to 80% End*/
+    /* Crazy deals start */
+    .crazy_style-1 {
+        margin-left: 19.7%;
+    }    
+    .crazy_text {
+        text-align: center;
+    }
+    .crazy_text h1 {
+        font-size: 27px;
+    }
+    .crazy_text p img {
+        width: 50% !important;
+    }
+    /* Crazy deals End*/
+    /* New beer End*/
+    .new_beer_min_height {
+        min-height: 670px;
+    }
+    /* New beer End*/
+
+    /* Customer Reviews End*/
+    .review_title h1 {
+        font-size: 24px;
+    }
+    .reviews_1 h2 {
+        font-size: 20.33px;
+    }
+    .start_date {
+        font-size: 15px;
+    }
+    .start_date img {
+        width: 50%;
+    }
+    .reviews_1 p {
+        font-size: 16.7px;
+    }
+
+    /* Customer Reviews End*/
+    
+    /* Newsletter start*/
+    .form_newsletter {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    /* Newsletter End*/
+    /* Footer start*/
+    .bg_footer {
+        padding-top: 50px;
+    }
+    /* Footer End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)
+=======================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .mb_50{
+        margin-bottom: 30px;
+    }
+    .mt_50{
+        margin-top: 30px;
+    }
+    .my_50{
+        margin: 30px 0;
+    }
+
+    /* Slider start */
+    .pure_lite {
+        font-size: 65px;
+        line-height: 85px;
+    }
+    .make_it_wrapper {
+        transform: rotate(0deg);
+        min-width: 0%;
+        margin-top: 31px;
+        text-align: end;
+        font-size: 15px;
+    }
+    .seven_start {
+        font-size: 35px;
+        max-width: 28%;
+        right: 118px;
+        top: 146px;
+        text-align: end;
+    }
+    
+    /* Slider End */
+    /* Classic pure lite start */
+    .clasic_img_1 {
+        left: -75px;
+    }
+    .clasic_img_2{
+        width: 100%;
+    }
+    .classic_text_aria h1 {
+        font-size: 72px;
+    }
+    .classic_text_aria h2 {
+        font-size: 35px;
+    }
+    .cc_btn{
+        right: 0;
+        top: 190px;
+        font-size: 20px !important;
+    }
+    .classic_position{
+        left: 0%;
+        top: 142px;
+    }
+    /* Classic pure lite End */
+    /* Freequently bought Start*/
+    .fre_title {
+        font-size: 26px;
+    }
+    .mt_t{
+        margin-top: 295px;
+    }
+    .fre_bought{
+        margin-bottom: 160px;
+    }
+    .fre_text h1{
+        font-size: 35px;
+    }
+    .fre_text {
+        bottom: -184px;
+    }
+    
+    .style_2-1 {
+        top: 310px;
+    }
+    .style_4 {
+        z-index: -3;
+        top: -28px;
+        left: -70px;
+    }
+
+    /* Freequently bought End*/
+    /* Up to 80% start*/
+    .mt_tt{
+        margin-top: 176px;
+    }
+    .min_height {
+        min-height: 400px;
+    }
+    .min_height h2 {
+        font-size: 22px;
+    }
+    .upto_80 h1 {
+        font-size: 40px;
+    }
+    /* Up to 80% End*/
+    /* Crazy deals start */
+    .crazy_item h2 {
+        padding: 7px 7px;
+        font-size: 17px;
+    }
+    .crazy_style-1 {
+        margin-left: 34.7%;
+    }
+    /* Crazy deals End*/
+    /* New beer start*/
+    .new_beer_min_height {
+        min-height: 600px;
+    }
+    /* New beer End*/
+    
+    /* Customer Reviews End*/
+    .review_title h1 {
+        font-size: 37px;
+    }
+    .reviews_1 h2 {
+        font-size: 27.33px;
+    }
+    .start_date {
+        font-size: 15px;
+    }
+    .reviews_1 p {
+        font-size: 16.7px;
+    }
+
+    /* Customer Reviews End*/
+    /* Footer start*/
+    .bg_footer {
+        padding-top: 50px;
+    }
+    /* Footer End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Medium devices (tablets, 768px and up)
+=====================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .mb_50{
+        margin-bottom: 50px;
+    }
+    .my_50{
+        margin: 50px 0;
+    }
+
+    /* Slider start */
+    .make_it_wrapper {
+        transform: rotate(0deg);
+        min-width: 0%;
+        margin-top: 31px;
+        text-align: end;
+    }
+    .seven_start {
+        font-size: 35px;
+        max-width: 28%;
+        right: 35px;
+        top: 155px;
+        text-align: end;
+    }
+    .style_1{
+        position: absolute;
+        z-index: -1;
+        bottom: -260px;
+        left: auto;
+    }
+    .style_2{
+        margin-top: 17px;
+        margin-left: 600px;
+        z-index: -2;
+        position: absolute;
+    }
+    /* Slider End */
+    /* Classic pure lite start */
+    .clasic_img_1 {
+        left: -100px;
+    }
+    .cc_btn{
+        right: 0;
+        top: 150px;
+    }
+    .classic_position{
+        left: 0%;
+        top: 142px;
+    }
+    /* Classic pure lite End */
+    /* Freequently bought Start*/
+    .fre_title {
+        font-size: 50px;
+    }
+    .mt_t{
+        margin-top: 263px;
+    }
+    .fre_text h1{
+        font-size: 30px;
+    }
+    .fre_text {
+        bottom: -170px;
+    }
+    .fre_text p {
+        font-size: 19px;
+    }
+    .style_2-1 {
+        top: 200px;
+    }
+    /* Freequently bought End*/
+    /* Up to 80% start*/
+    .mt_tt{
+        margin-top: 162px;
+    }
+    .min_height {
+        min-height: 460px;
+    }
+    .min_height h2 {
+        font-size: 28px;
+    }
+    .upto_80 h1 {
+        font-size: 60px;
+    }
+    /* Up to 80% End*/
+    /* Crazy deals start */
+    .crazy_item h2 {
+        font-size: 23px;
+        padding: 15px 15px;
+    }
+    .crazy_style-1 {
+        margin-left: 34.7%;
+    }
+    .crazy_text h1 {
+        font-size: 43px;
+    }
+    /* Crazy deals End*/
+    /* New beer End*/
+    .new_beer_min_height {
+        min-height: 650px;
+    }
+    /* New beer End*/
+    /* Customer Reviews End*/
+    .review_title h1 {
+        font-size: 37px;
+    }
+    .reviews_1 h2 {
+        font-size: 27.33px;
+    }
+    .start_date {
+        font-size: 15px;
+    }
+    .reviews_1 p {
+        font-size: 16.7px;
+    }
+
+    .style_7 {
+        margin-left: -40px;
+    }
+    .style_8 {
+        margin-top: 223px;
+        margin-left: 25px;
+    }
+    .style_9 {
+        margin-left: 70px;
+    }
+    /* Customer Reviews End*/
+    /* Newsletter start*/
+    .style_11 {
+        margin-left: 75%;
+        margin-top: -38%;
+    }
+    /* Newsletter End*/
+    /* Footer start*/
+    .bg_footer {
+        padding-top: 50px;
+    }
+    .style_12 {
+        margin-left: -91px;
+    }
+    /* Footer End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large devices (desktops, 992px and up)
+=====================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Slider start */
+    .pure_lite {
+        font-size: 72px;
+    }
+    .make_it_wrapper {
+        font-size: 20px;
+        min-width: 144%;
+        margin-top: 90px;
+    }
+    .seven_start {
+        font-size: 34px;
+        max-width: 20%;
+    }
+    .style_2 {
+        margin-top: 216px;
+        margin-left: 51px;
+    }
+    /* Slider End */
+    /* Classic pure lite start */
+    .clasic_img_1 {
+        left: -320px;
+    }
+    /* Classic pure lite End */
+    
+    /* Crazy deals start */
+    .crazy_item h2 {
+        padding: 15px 20px;
+    }
+    /* Crazy deals End*/
+    /* Customer Reviews End*/
+    .review_title h1 {
+        font-size: 50px;
+    }
+
+
+
+    .style_7 {
+        margin-left: -50px;
+    }
+    .style_8 {
+        position: absolute;
+        overflow: hidden;
+        margin-top: 224px;
+        margin-left: 50px;
+    }
+    .style_9 {
+        margin-left: 70px;
+    }
+    /* Customer Reviews End*/
+    /* Footer start*/
+    .style_12 {
+        margin-left: -91px;
+    }
+    .style_13 {
+        margin-left: -59px;
+        margin-top: 124px;
+    }
+    /* Footer End*/
+}
+
+
+
+
+
+
+
+
+
+
+
+ /*X-Large devices (large desktops, 1200px and up)
+ =======================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*XX-Large devices (larger desktops, 1400px and up)
+=====================================================*/
+@media (min-width: 1400px) { }
